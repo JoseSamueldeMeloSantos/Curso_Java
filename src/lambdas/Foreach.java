@@ -20,7 +20,7 @@ public class Foreach {
         aprovados.forEach((nome) -> {
             System.out.println(nome + "!!!");
         });
-//        quando a lambda só possui um parametro não é necessário usar os parênteses
+//        quando a lambda só possui um parametro não é necessário usar os +parênteses
 
 //      for each como referência de metódo
         System.out.println("\nMethod Reference");
