@@ -25,7 +25,7 @@ public class CriandoStreams {
         outrasLangs.parallelStream().forEach(print);//cria uma stream paralela a partir de uma collection
 
         Stream.generate(() -> "a").forEach(print);//cria uma stream infinita que não tem ordenação
-             //primeiro numro  | regra para geração
+             //primeiro numro  | regra para geração -
         Stream.iterate(0, n -> n + 1).forEach(print);//cria uma stream infinita com ordenção
     }
 }
