@@ -23,6 +23,7 @@ public class ImprimindoObjetos  {
             //.next() pega o proximo elemento(depois que ele usa o next, ele passa para o proximo elemento
         }
 
+
 //      Stream é um conjunto de obj que a interação ocorre de forma interna
         System.out.println("\nUsando Stream..");
         Stream<String> stream = aprovados.stream();
