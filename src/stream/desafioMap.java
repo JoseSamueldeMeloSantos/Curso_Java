@@ -25,6 +25,6 @@ public class desafioMap {
 
         nums.stream().map(toBinario).map(inverteString).map(toDecimal).forEach(System.out::println);
 
-        System.out.println(inverteString.apply("Carro"));
+        System.out.println(inverteString.apply("Carro Novo"));
     }
 }
