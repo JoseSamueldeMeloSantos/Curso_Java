@@ -7,6 +7,11 @@ import java.util.function.Function;
 
 public class Reduce1 {
 
+    /*
+    vai transformar uma stream uma uma coisa totalmente
+    diferente de acordo com uma função/metodo
+        (acumulador, n)
+     */
     //O reduce é uma função terminadora
     public static void main(String[] args) {
 
